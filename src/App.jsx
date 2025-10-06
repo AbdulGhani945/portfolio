@@ -8,10 +8,8 @@ import Project2Detail from './Components/Project/Project2Detail'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-
-// ✅ Import your image (add correct path)
-import Whatsapp from "./Components/Project/images/Whatsapps.png"
 import Projects from './Components/Project/project'
+
 
 function App() {
   return (
@@ -36,7 +34,7 @@ function App() {
       >
 
         <img
-          src={Whatsapp}
+          src="/whatsapps.png"
           alt="Fixed Icon"
           className="w-20 h-20 rounded-full shadow-lg "
         />
