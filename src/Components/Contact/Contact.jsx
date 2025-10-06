@@ -263,7 +263,7 @@ export default function ContactPage() {
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 type="submit"
-                                className="inline-flex items-center gap-3 rounded-xl bg-sky-500 px-5 py-3 text-white font-semibold shadow-lg hover:bg-sky-600 transition-colors"
+                                className="inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-500 px-5 py-3 text-white font-semibold shadow-lg"
                             >
                                 <FaPaperPlane className="w-4 h-4" />
                                 <span>
