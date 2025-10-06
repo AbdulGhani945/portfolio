@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeDown {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fillProgress {
+  0% { width: 0%; }
+  100% { width: var(--progress-width, 0%); }
+}
+
+/* Heading Animation */
+.skills-heading {
+  opacity: 0;
+  animation: fadeDown 0.8s ease forwards;
+}
+
+/* Cards Animation */
+.skill-card {
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards;
+}
+
+/* Progress bar fill */
+.skill-fill {
+  width: 0%;
+  background-color: rgb(99 102 241); /* Tailwind indigo-500 */
+  animation: fillProgress 2s ease forwards;
+}
