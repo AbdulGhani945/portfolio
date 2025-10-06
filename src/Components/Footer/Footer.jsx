@@ -8,13 +8,7 @@ export default function Footer() {
           <div className="text-center text-md text-gray-200 mt-2"> © 2025 Abdul Ghani. All rights reserved.
       </div>
         <div className="flex gap-4 text-xl">
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:text-sky-400 transition">
-            <FaFacebookMessenger />
-          </a>
+          
           <a
             href="https://www.linkedin.com/in/abdul-ghani-6ab853388/"
             target="_blank"

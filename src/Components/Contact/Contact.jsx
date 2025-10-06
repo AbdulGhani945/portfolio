@@ -157,9 +157,7 @@ export default function ContactPage() {
                         <p className="text-xs text-slate-500">Follow</p>
                         <div className="flex gap-4 mt-3 text-2xl">
                            
-                            <a href="https://www.linkedin.com/in/abdul-ghani-6ab853388/" target="_blank" rel="noreferrer">
-                                <FaFacebookMessenger className="text-blue-700 hover:scale-110 transition-transform" />
-                            </a>
+                          
                             <a href="https://www.linkedin.com/in/abdul-ghani-6ab853388/" target="_blank" rel="noreferrer">
                                 <FaLinkedin className="text-blue-700 hover:scale-110 transition-transform" />
                             </a>
