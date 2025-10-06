@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebookMessenger, FaWhatsapp } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white py-5 ">
@@ -13,7 +13,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
             className="hover:text-sky-400 transition">
-            <FaTwitter />
+            <FaFacebookMessenger />
           </a>
           <a
             href="https://www.linkedin.com/in/abdul-ghani-6ab853388/"

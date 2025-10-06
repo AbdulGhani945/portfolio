@@ -7,7 +7,7 @@ import {
     FaPaperPlane,
     FaGithub,
     FaLinkedin,
-    FaTwitter,
+    FaFacebookMessenger,
 } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -156,8 +156,9 @@ export default function ContactPage() {
                     <motion.div variants={item} className="mt-10">
                         <p className="text-xs text-slate-500">Follow</p>
                         <div className="flex gap-4 mt-3 text-2xl">
-                            <a href="https://twitter.com" target="_blank" rel="noreferrer">
-                                <FaTwitter className="text-sky-500 hover:scale-110 transition-transform" />
+                           
+                            <a href="https://www.linkedin.com/in/abdul-ghani-6ab853388/" target="_blank" rel="noreferrer">
+                                <FaFacebookMessenger className="text-blue-700 hover:scale-110 transition-transform" />
                             </a>
                             <a href="https://www.linkedin.com/in/abdul-ghani-6ab853388/" target="_blank" rel="noreferrer">
                                 <FaLinkedin className="text-blue-700 hover:scale-110 transition-transform" />
