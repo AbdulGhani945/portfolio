@@ -8,7 +8,7 @@ import Project2Detail from './Components/Project/Project2Detail'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Projects from './Components/Project/project'
+import Projectss from './Components/Project/Projectss'
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects" element={<Projectss />} />
         <Route path="/project-1-detail" element={<Project1Detail />} />
         <Route path="/project-2-detail" element={<Project2Detail />} />
         <Route path="/contact" element={<Contact />} />

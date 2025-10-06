@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import background from "./Image/background.png";
 import About from "../About/About";
 import Skills from "../Skills/Skills";
-import Projects from "../Project/project";
 import Contact from "../Contact/Contact";
 import { motion } from "framer-motion";
 import { DNA } from "react-loader-spinner";
+import Projectss from "../Project/Projectss";
 
 function Home() {
   const [loader, setLoader] = useState(true);
@@ -94,7 +94,7 @@ function Home() {
       {/* SECTIONS */}
       <About />
       <Skills />
-      <Projects />
+      <Projectss />
       <Contact />
     </>
   );
