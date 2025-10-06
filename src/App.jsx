@@ -33,6 +33,7 @@ function App() {
         target='_blank'
         className="fixed bottom-6 right-6 z-50 hover:scale-110 transition-transform duration-300"
       >
+        
         <img
           src={Whatsapp}
           alt="Fixed Icon"
