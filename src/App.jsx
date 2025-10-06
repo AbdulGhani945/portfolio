@@ -2,15 +2,12 @@ import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
 import About from './Components/About/About'
 import Skills from './Components/Skills/Skills'
-// import Project from './Components/Project/Project'
 import Project1Detail from './Components/Project/Project1Detail'
 import Project2Detail from './Components/Project/Project2Detail'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Projectss from './Components/Project/Projectss'
-
-
 function App() {
   return (
     <BrowserRouter>
@@ -26,11 +23,10 @@ function App() {
       </Routes>
       <Footer />
 
-      {/* ✅ Fixed image inside anchor tag (Bottom Right Corner) */}
       <a
         href="https://wa.me/+923211130889"
         target='_blank'
-        className="fixed bottom-6 right-6 z-50 hover:scale-110 transition-transform duration-300"
+        className="fixed bottom-7 right-6 z-50 hover:scale-110 transition-transform duration-300"
       >
 
         <img

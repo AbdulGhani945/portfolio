@@ -10,6 +10,7 @@ import Projectss from "../Project/Projectss";
 function Home() {
   const [loader, setLoader] = useState(true);
 
+  
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoader(false);
