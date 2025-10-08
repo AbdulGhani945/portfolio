@@ -103,7 +103,7 @@ export default function ContactPage() {
                 transition={{ duration: 1 }}
                 className="text-4xl md:text-5xl font-extrabold text-white mb-10 text-center"
             >
-                Contact Me
+                Contact Us
             </motion.h1>
 
             {/* Card with staggered content */}

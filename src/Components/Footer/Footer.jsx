@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaFacebookMessenger, FaWhatsapp } from "react-icons/fa";
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white py-5 ">
+    <footer className=" bg-[#1c1c4b] text-white py-3 ">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
       
           <div className="text-center text-md text-gray-200 mt-2"> © 2025 Abdul Ghani. All rights reserved.

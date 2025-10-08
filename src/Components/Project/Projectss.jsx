@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 import { DNA } from "react-loader-spinner";
 import blog from "./images/blog.jpg";
 import pimg from "./images/pimg.jpg";
 import ecom from "./images/ecom.png";
 
 const Projectss = () => {
- const [loader, setLoader] = useState(true);
+  const [loader, setLoader] = useState(true);
 
   // Hide loader after 1s
   useEffect(() => {
@@ -107,10 +107,13 @@ const Projectss = () => {
         {!showAll && projects.length > 3 && (
           <button
             onClick={() => setShowAll(true)}
-            className="mt-8 px-6 py-2 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-full hover:bg-indigo-700 transition"
+            className="mt-8 px-8 py-3 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-full 
+             hover:from-indigo-600 hover:to-purple-600 hover:scale-105 hover:shadow-xl 
+             transition duration-300 ease-in-out"
           >
             View More
           </button>
+
         )}
       </div>
     </section>

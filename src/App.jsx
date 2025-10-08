@@ -26,13 +26,13 @@ function App() {
       <a
         href="https://wa.me/+923211130889"
         target='_blank'
-         className="fixed bottom-16 right-6 z-50 m"
+         className="fixed bottom-12 -right-2 z-50 m"
       >
 
         <img
           src="/whatsapps.png"
           alt="Fixed Icon"
-          className="w-20 h-20  "
+          className="w-46 h-20  "
         />
       </a>
     </BrowserRouter>

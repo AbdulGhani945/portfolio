@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink, useLocation } from "react-router-dom";
@@ -37,7 +38,7 @@ function Navbar() {
   return (
     <nav className="sticky top-0 left-0 w-full shadow-md z-10">
       <div className="max-w-7xl mx-auto px-6 py-1 flex justify-between items-center 
-        bg-gradient-to-r from-[rgba(0,123,255,1)] via-[rgb(0,200,200)] to-[rgb(0,255,150)] text-white">
+        bg-gradient-to-r from-[rgba(0,123,255,1)] via-[rgb(0,200,200)] to-[rgb(0,255,150)] text-white lg:mx-auto">
         
         {/* Logo */}
         <div className="flex items-center gap-2 text-2xl font-bold">
