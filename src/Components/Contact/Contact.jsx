@@ -101,9 +101,9 @@ export default function ContactPage() {
                 initial={{ opacity: 0, y: -30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-                className="text-4xl md:text-5xl font-extrabold text-white mb-10 text-center"
+                className="text-4xl md:text-5xl font-extrabold text-pink-500 mb-10 text-center"
             >
-                Contact Us
+                Contact <span className="text-indigo-500">Us</span>
             </motion.h1>
 
             {/* Card with staggered content */}

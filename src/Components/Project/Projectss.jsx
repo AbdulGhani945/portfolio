@@ -75,7 +75,7 @@ const Projectss = () => {
   return (
     <section className="projects min-h-[70vh] bg-[#031030] px-6 py-12">
       <div className="max-w-6xl mx-auto text-center">
-        <h1 className="text-4xl md:text-5xl font-bold text-red-600 mb-12">
+        <h1 className="text-4xl md:text-5xl font-bold text-pink-500 mb-12">
           My <span className="text-indigo-500">Projects</span>
         </h1>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">

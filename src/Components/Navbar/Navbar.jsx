@@ -38,7 +38,7 @@ function Navbar() {
   return (
     <nav className="sticky top-0 left-0 w-full shadow-md z-10">
       <div className=" mx-auto px-6 py-1 flex justify-between items-center 
-        bg-gradient-to-r from-[rgba(0,123,255,1)] via-[rgb(0,200,200)] to-[rgb(0,255,150)] text-white ">
+        bg-gradient-to-r from-[#0778f1] via-[rgb(3,229,210)] to-[rgb(0,255,119)] text-white ">
         
         {/* Logo */}
         <div className="flex items-center gap-2 text-2xl font-bold">
@@ -57,7 +57,7 @@ function Navbar() {
         {/* Contact Button (desktop) */}
         <NavLink to="/contact">
           <button className="hidden md:block bg-gradient-to-r from-indigo-500 to-purple-500 text-white px-5 py-2 rounded-full shadow-lg hover:scale-105 transition duration-300">
-            Contact
+            Contact Us
           </button>
         </NavLink>
 

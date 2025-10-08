@@ -79,7 +79,7 @@ function Skills() {
   return (
     <section className="skills min-h-[60vh] flex flex-col items-center justify-center bg-[#031030] px-6 py-12">
       <div className="max-w-6xl mx-auto text-center w-full">
-        <h1 className="skills-heading text-4xl md:text-5xl font-bold text-red-600 mb-10">
+        <h1 className="skills-heading text-4xl md:text-5xl font-bold text-pink-500 mb-10">
           My <span className="text-indigo-500">Skills</span>
         </h1>
 
@@ -105,7 +105,7 @@ function Skills() {
           ))}
         </div>
 
-        <h1 className="skills-heading text-4xl md:text-5xl font-bold text-red-600 mt-16 mb-10">
+        <h1 className="skills-heading text-4xl md:text-5xl font-bold text-pink-500 mt-16 mb-10">
           My <span className="text-indigo-500">Experience</span>
         </h1>
 
