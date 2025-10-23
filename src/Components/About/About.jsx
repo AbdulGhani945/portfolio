@@ -37,7 +37,7 @@ function About() {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">About Me</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-400 bg-clip-text text-transparent"> About Me</h1>
           <p className="text-base md:text-lg mb-6">
             Hi, I’m <span className="font-semibold">Abdul Ghani</span>, With a
             Bachelor's degree in Software Engineering, I have a strong
