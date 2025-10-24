@@ -70,15 +70,29 @@ export default function ContactPage() {
         }
         setStatus({ type: "sending", msg: "Sending..." });
         try {
-            await new Promise((r) => setTimeout(r, 900));
-            setStatus({ type: "sent", msg: "Thanks — your message has been sent!" });
-            setForm({ firstName: "", lastName: "", email: "", message: "" });
-        } catch (e) {
-            setStatus({
-                type: "error",
-                msg: "Something went wrong. Please try again.",
-            });
-        }
+    const res = await fetch("http://localhost:5000/api/User/message", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(form),
+    });
+
+    const data = await res.json();
+
+    if (data.success) {
+        setStatus({ type: "sent", msg: "✅ Message sent successfully!" });
+        setForm({ firstName: "", lastName: "", email: "", message: "" });
+    } else {
+        setStatus({ type: "error", msg: "❌ Failed to send message." });
+    }
+} catch (e) {
+    setStatus({
+        type: "error",
+        msg: "⚠️ Server error — please try again later.",
+    });
+}
+
     }
 
     // Animation settings
